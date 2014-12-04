@@ -1,0 +1,10 @@
+{
+  "name": "to-beer-shops",
+  "version": "0.1.0",
+  "description": "Scrapes brewery sites to get current beers",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "~0.18.0",
+    "request": "~2.49.0"
+  }
+}
