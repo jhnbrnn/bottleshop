@@ -56,7 +56,7 @@ function leftField () {
 // nondescript markup
 // Wordpress
 function rainhard () {
-  return rp('http://rainhardbrewing.com/the-bottle-shop/').then((body) => {
+  return rp('http://rainhardbrewing.com/beers/').then((body) => {
     let $ = cheerio.load(body)
     header('Rainhard:')
     $(body).find('.full_width_inner .grid_section').each((index, elem) => {
